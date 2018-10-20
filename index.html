@@ -30,59 +30,7 @@
         border-right-style: solid;
         border-right-color: rgb(59, 59, 59);
     }
-    
-    @media screen and (max-width: 600px){
-        #navbar {
-            position: fixed;
-            width: 100vw;
-            height: 277px;
-            margin: auto;
-        }
-        
-        #navbar ul {
-            position: fixed;
-            width: 100vw;
-            margin: auto;
-            height: 100vw;
-            left: 100px;
-            /* background-color: yellow; */
-        }
-
-        #navbar header h1 {
-            position: fixed;
-            /* display: block; */
-            padding-left: 2500px;
-            width: 2700px;
-            left: 5000px;
-            margin-bottom: -15px;
-            border-bottom-style: solid;
-            border-bottom-width: 1px;
-        }
-
-        #navbar ul li{
-            position: fixed;    
-            /* left: -100px; */
-            width: 100vw;
-            height: 55px;
-            margin: auto;
-            /* background-color: aqua; */
-        }
-        
-        #main-doc {
-            position: relative;
-            /* width: 100vw; */
-            margin-left: 0px;
-            margin-top: 260px;
-            /* padding-top: 260px; */
-            /* background-color: blue; */
-        }
-
-        img {
-            display: none;
-        }
-        
-    }
-    
+     
     #navbar ul {
         height: 100vw;
         list-style: none;
@@ -98,7 +46,7 @@
         margin-bottom: -15px;
         border-bottom-style: solid;
         border-bottom-width: 1px;
-        border-bottom-color: rgb(59, 59, 59);
+        /* border-bottom-color: rgb(59, 59, 59); */
     }
     
     #navbar ul li{
@@ -192,6 +140,85 @@
         background-color: rgb(211, 211, 211);
     }
     
+    @media screen and (max-width: 600px){
+        body {
+            margin-right: 0px;
+            padding-right: 0px;
+        }
+        #navbar {
+            position: relative;
+            width: auto;
+            height: 182px;
+            /* margin: auto; */
+            margin-right: auto;
+            margin-left: -8px;
+            text-align: center;
+            border-right-style: none;
+            border-right-color: rgb(59, 59, 59);
+        }
+        
+        #navbar ul {
+            /* position: fixed; */
+            width: auto;
+            margin: auto;
+            height: 150px;
+            /* left: 100px; */
+            /* background-color: yellow; */
+        }
+
+        #navbar header h1 {
+            /* position: fixed; */
+            /* display: block; */
+            width: 82vw;
+            /* left: 5000px; */
+            margin-top: 10px;
+            margin-bottom: 0px; 
+            padding-right: 9vw;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        }
+
+        #navbar ul li{
+            /* position: fixed;     */
+            /* left: -100px; */
+            width: 100vw;
+            /* height: 10px; */
+            margin: auto;
+            padding: 5px;
+            padding-right: 13px;
+            /* padding-left: 80px; */
+            font-size: 15px;
+            /* background-color: aqua; */
+        }
+        
+        #main-doc {
+            position: relative;
+            /* width: 100vw; */
+            margin-left: 0px;
+            margin-top: -30px;
+            margin-right: opx;
+            /* padding-top: 260px; */
+            /* background-color: blue; */
+        }
+
+        img {
+            display: none;
+        }
+
+        footer {
+            /* position: relative; */
+            /* left: 21.2%; */
+            /* bottom: 0; */
+            display: block;
+            width: auto;
+            height: auto;
+            margin: 0px 0px -5px -10px;
+            padding: 10px;
+            text-align: center;
+            /* margin-bottom: -10vw; */
+            background-color: rgb(211, 211, 211);
+        }  
+    }
 </style>
 
 
