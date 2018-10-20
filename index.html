@@ -33,29 +33,48 @@
     
     @media screen and (max-width: 600px){
         #navbar {
-        position: relative;
-        width: auto;
-        height: 277px;
+            position: fixed;
+            width: 100vw;
+            height: 277px;
+            margin: auto;
         }
         
         #navbar ul {
-        /* width: auto; */
-        /* height: 10vw; */
-        /* background-color: yellow; */
+            position: fixed;
+            width: 100vw;
+            margin: auto;
+            height: 100vw;
+            left: 100px;
+            /* background-color: yellow; */
+        }
+
+        #navbar header h1 {
+            position: fixed;
+            /* display: block; */
+            padding-left: 2500px;
+            width: 2700px;
+            left: 5000px;
+            margin-bottom: -15px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
         }
 
         #navbar ul li{
-        /* width: auto; */
-        /* height: 55px; */
-        /* background-color: aqua; */
+            position: fixed;    
+            /* left: -100px; */
+            width: 100vw;
+            height: 55px;
+            margin: auto;
+            /* background-color: aqua; */
         }
         
         #main-doc {
-        /* width: auto; */
-        margin-left: 0;
-        /* margin-top: 260px; */
-        /* padding-top: 260px; */
-        /* background-color: blue; */
+            position: relative;
+            /* width: 100vw; */
+            margin-left: 0px;
+            margin-top: 260px;
+            /* padding-top: 260px; */
+            /* background-color: blue; */
         }
 
         img {
@@ -105,7 +124,7 @@
     #main-doc {
         width: auto;
         margin-top: 10px;
-        /* margin-bottom: 5vw; */
+        margin-bottom: 5vw;
         margin-left: 310px;
         margin-right: 45px;
         padding-bottom: 30px;
